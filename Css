@@ -1,0 +1,52 @@
+a{
+    text-decoration:none;
+}
+
+
+.nav-menu{
+    min-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+    display: flex;
+    display: inline-flexbox;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+    justify-content: space-between;
+    margin: 0;
+    position: sticky;
+    background-color: #5e2385;
+    z-index: 2;
+    background-color:rgba(32, 22, 25, 0.897);
+}
+.nav-menu a{
+    display: block;
+    padding: 15px;
+    width: 100px;
+}
+.nav-menu a:hover{
+    background-color:rgb(31, 255, 255);
+}
+
+
+body{
+    background-color: rgba(91, 120, 182, 0.897);
+    font-family:poppins;
+}
+
+.links li{
+    display:inline-flex;
+    content: space-between;
+    padding: 2em;
+    float: center;
+    padding-left: 12em;
+    
+    
+}
+p,h1{
+    text-align: center;
+}
+.njoro img{
+    padding-left: 43%;
+    float:center;
+}
